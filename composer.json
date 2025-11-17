@@ -16,6 +16,7 @@
       "email": "benacke@gmail.com"
     }
   ],
+  "license": "MIT",
   "config": {
     "optimize-autoloader": true
   },
