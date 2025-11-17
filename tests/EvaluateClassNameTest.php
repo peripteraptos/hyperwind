@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Windstitch\Tests;
+namespace peripteraptos\WindstitchPHP\Tests;
 
 use PHPUnit\Framework\TestCase;
 use function peripteraptos\WindstitchPHP\evaluate_classname;
