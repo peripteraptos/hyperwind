@@ -1,0 +1,15 @@
+{
+    "name": "peripteraptos/windstich-php",
+    "autoload": {
+        "psr-4": {
+            "Peripteraptos\\WindstichPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedikt Ackermann",
+            "email": "benacke@gmail.com"
+        }
+    ],
+    "require": {}
+}
