@@ -74,11 +74,7 @@ function styled(string $defaultAs, array $config = []): callable
 
         // Merge into 'class'
         if ($className !== '') {
-            if (!empty($attrs['class'])) {
-                $attrs['class'] = trim($attrs['class'] . ' ' . $className);
-            } else {
-                $attrs['class'] = $className;
-            }
+            $attrs['class'] = $className;
         }
 
         // Build HTML attributes
