@@ -5,7 +5,7 @@ Hyperwind is a tiny PHP helper to build Tailwind (or any utility CSS) class stri
 It’s especially handy in server-side rendered PHP apps where you want a clean, declarative way to describe visual variants without scattering class strings everywhere.
 
 > **Inspired by:**  
-> This package is based on the ideas and API of the JavaScript library **[Windstitch](https://github.com/vinpac/windstitch/tree/main)**. All credit for the original concept goes to that project.
+> This package is based on the ideas and API of the Typescript library **[Windstitch](https://github.com/vinpac/windstitch/tree/main)**. All credit for the original concept goes to that project.
 
 ## Installation
 
