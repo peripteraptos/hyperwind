@@ -11,7 +11,7 @@ function evaluate_classname(
     string $defaultClassName = ''
 ): string {
     $propsClass = $props['class'] ?? ($props['className'] ?? '');
-    $classNames = [$defaultClassName, $propsClass ?: ''];
+    $classNames = [$propsClass, $defaultClassName];
 
     $compoundedClassName = '';
     $compoundedDefaults = [];
