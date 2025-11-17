@@ -1,6 +1,6 @@
 <?php
 
-namespace peripteraptos\Hyperwind;
+namespace Hyperwind;
 
 function evaluate_classname(
     array $props,

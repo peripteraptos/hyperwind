@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace peripteraptos\Hyperwind\Tests;
+namespace Hyperwind\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function peripteraptos\Hyperwind\styled;
+use function Hyperwind\styled;
 
 final class StyledTest extends TestCase
 {

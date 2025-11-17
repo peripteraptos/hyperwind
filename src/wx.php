@@ -1,8 +1,8 @@
 <?php
 
-namespace peripteraptos\Hyperwind;
+namespace Hyperwind;
 
-use function peripteraptos\Hyperwind\evaluate_classname;
+use function Hyperwind\evaluate_classname;
 
 /**
  * wx([
