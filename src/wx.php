@@ -1,9 +1,8 @@
 <?php
-// src/windstitch/wx.php
 
-namespace peripteraptos\WindstitchPHP;
+namespace peripteraptos\Hyperwind;
 
-use function peripteraptos\WindstitchPHP\evaluate_classname;
+use function peripteraptos\Hyperwind\evaluate_classname;
 
 /**
  * wx([

@@ -1,7 +1,6 @@
 <?php
-// src/windstitch/evaluate_classname.php
 
-namespace peripteraptos\WindstitchPHP;
+namespace peripteraptos\Hyperwind;
 
 function evaluate_classname(
     array $props,

@@ -1,9 +1,8 @@
 <?php
-// src/windstitch/styled.php
 
-namespace peripteraptos\WindstitchPHP;
+namespace peripteraptos\Hyperwind;
 
-use function peripteraptos\WindstitchPHP\evaluate_classname;
+use function peripteraptos\Hyperwind\evaluate_classname;
 
 const VOID_TAGS = [
     'area',

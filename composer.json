@@ -1,8 +1,8 @@
 {
-  "name": "peripteraptos/windstitch-php",
+  "name": "peripteraptos/hyperwind",
   "autoload": {
     "psr-4": {
-      "peripteraptos\\WindstitchPHP\\": "src/"
+      "peripteraptos\\Hyperwind\\": "src/"
     },
     "files": [
       "src/evaluate_classname.php",

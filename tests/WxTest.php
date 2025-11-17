@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace peripteraptos\WindstitchPHP\Tests;
+namespace peripteraptos\Hyperwind\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function peripteraptos\WindstitchPHP\wx;
+use function peripteraptos\Hyperwind\wx;
 
 final class WxTest extends TestCase
 {
