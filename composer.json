@@ -1,15 +1,25 @@
 {
-    "name": "peripteraptos/windstich-php",
-    "autoload": {
-        "psr-4": {
-            "Peripteraptos\\WindstichPhp\\": "src/"
-        }
+  "name": "peripteraptos/windstitch-php",
+  "autoload": {
+    "psr-4": {
+      "peripteraptos\\WindstitchPHP\\": "src/"
     },
-    "authors": [
-        {
-            "name": "Benedikt Ackermann",
-            "email": "benacke@gmail.com"
-        }
-    ],
-    "require": {}
+    "files": [
+      "src/evaluate_classname.php",
+      "src/styled.php",
+      "src/wx.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Benedikt Ackermann",
+      "email": "benacke@gmail.com"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12"
+  }
 }
