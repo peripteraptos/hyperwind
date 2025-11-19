@@ -136,4 +136,23 @@ final class StyledTest extends TestCase
         $this->assertStringNotContainsString('</img>', $html);
         $this->assertStringNotContainsString('IGNORED', $html);
     }
+
+
+    public function testChildrenCanBeArrayAndWillBeImploded(): void
+    {
+        $Div = styled('div', [
+            'className' => 'container',
+        ]);
+
+        $html = $Div([
+            'children' => [
+                '<p>First</p>',
+                '<p>Second</p>',
+            ],
+        ]);
+
+        $this->assertStringContainsString('<div', $html);
+        $this->assertStringContainsString('<p>First</p><p>Second</p>', $html);
+        $this->assertStringEndsWith('</div>', $html);
+    }
 }

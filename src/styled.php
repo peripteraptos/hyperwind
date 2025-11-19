@@ -55,6 +55,13 @@ function styled(string $defaultAs, array $config = []): callable
 
         // Extract children before we strip stuff
         $children = $attrs['children'] ?? '';
+
+        // If children is an array, implode it
+        if (is_array($children)) {
+            $children = implode('', $children);
+        }
+
+        // Remove children from attributes
         unset($attrs['children']);
 
         // Remove variant props from HTML attributes
